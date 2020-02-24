@@ -1,9 +1,8 @@
 function showFibonacci() {
     let loopCycle = +document.getElementById('num-input').value;
-    let total = 0;
-    while (loopCycle > 0) {
-        total += loopCycle;
-        loopCycle--;
+    let sum = 0;
+    for (let i = 1; i <= loopCycle; i++) {
+        sum += i;
     }
-    document.getElementById('result').innerHTML = "Số Fibonacci tương ứng là :" + total;
+    document.getElementById('result').innerHTML = "Số Fibonacci tương ứng là :" + sum;
 }
