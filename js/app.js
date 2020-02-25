@@ -4,5 +4,5 @@ function show() {
     for (let i = 1; i <= loopCycle; i++) {
         sum += i;
     }
-    document.getElementById('result').innerHTML = "Số Fibonacci tương ứng là :" + sum;
+    document.getElementById('result').innerHTML = "Tổng các số nhập vào là :" + sum;
 }
